@@ -51,6 +51,8 @@ module.exports = function(...input) {
       }
     }
 
+    cssModuleKeys.sort();
+
     let cssModuleDefinition;
     if (!query.namedExport) {
       cssModuleDefinition = generateGenericExportInterface(cssModuleKeys, filename);

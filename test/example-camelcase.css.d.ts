@@ -1,7 +1,7 @@
 export interface IExampleCamelcaseCss {
-  'foo': string;
   'bar-baz': string;
   'barBaz': string;
+  'foo': string;
 }
 
 export const locals: IExampleCamelcaseCss;
